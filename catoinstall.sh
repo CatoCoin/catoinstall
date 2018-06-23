@@ -45,7 +45,7 @@ function download_node() {
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_TGZ
   tar xzvf catocoin-ubuntu-16-04-v1.tar.gz
-  cd smn4 >/dev/null 2>&1
+  cd ubu16final >/dev/null 2>&1
   chmod +x $COIN_DAEMON $COIN_CLI
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
   cd ~ >/dev/null 2>&1
