@@ -7,7 +7,7 @@ CONFIGFOLDER='/root/.catocoin2'
 COIN_DAEMON='catocoind'
 COIN_CLI='catocoin-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/CatoCoin/releases/raw/master/catocoin-ubuntu-16-04-v1.tar.gz'
+COIN_TGZ='https://github.com/CatoCoin/releases/raw/master/catocoin.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='catocoin'
 COIN_PORT=34888
@@ -44,8 +44,8 @@ function download_node() {
   echo -e "${GREEN}Downloading and Installing VPS $COIN_NAME Daemon${NC}"
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_TGZ
-  tar xzvf catocoin-ubuntu-16-04-v1.tar.gz
-  cd ubu16final >/dev/null 2>&1
+  tar xzvf catocoin.tar.gz
+  cd posrepair >/dev/null 2>&1
   chmod +x $COIN_DAEMON $COIN_CLI
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
   cd ~ >/dev/null 2>&1
