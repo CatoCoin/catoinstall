@@ -49,7 +49,7 @@ function download_node() {
   chmod +x $COIN_DAEMON $COIN_CLI
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
   cd ~ >/dev/null 2>&1
-  #rm -rf $TMP_FOLDER >/dev/null 2>&1
+  rm -rf $TMP_FOLDER >/dev/null 2>&1
   clear
 }
 
@@ -266,7 +266,7 @@ function setup_node() {
   #enable_firewall
   #install_sentinel
   important_information
-  #configure_systemd
+  configure_systemd
 }
 
 
