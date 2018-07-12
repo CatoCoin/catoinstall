@@ -44,12 +44,12 @@ function download_node() {
   echo -e "${GREEN}Downloading and Installing VPS $COIN_NAME Daemon${NC}"
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_TGZ
-  tar xzvf cato-linux.tar.gz -C /usr/local/bin/
-  cd rev >/dev/null 2>&1
-  chmod +x $COIN_DAEMON $COIN_CLI
+  tar xzvf cato-linux.tar.gz 
+  #cd rev >/dev/null 2>&1
+  #chmod +x $COIN_DAEMON $COIN_CLI
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
-  cd ~ >/dev/null 2>&1
-  rm -rf $TMP_FOLDER >/dev/null 2>&1
+  #cd ~ >/dev/null 2>&1
+  #rm -rf $TMP_FOLDER >/dev/null 2>&1
   clear
 }
 
