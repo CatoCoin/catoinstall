@@ -75,7 +75,7 @@ StartLimitBurst=5
 WantedBy=multi-user.target
 EOF
 
-  systemctl daemon-reload
+  #systemctl daemon-reload
   #sleep 3
   #systemctl start $COIN_NAME.service
   #systemctl enable $COIN_NAME.service >/dev/null 2>&1
