@@ -123,7 +123,8 @@ function create_key() {
     sleep 30
     COINKEY=$($COIN_PATH$COIN_CLI masternode genkey)
   fi
-  $COIN_PATH$COIN_CLI stop
+  $/usr/local/bin/catocoin-cli stop
+  sleep 10
 fi
 clear
 }
