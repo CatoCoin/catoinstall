@@ -6,7 +6,7 @@ CONFIGFOLDER='/root/.catocoin2'
 COIN_DAEMON='catocoind'
 COIN_CLI='catocoin-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/CatoCoin/releases/raw/master/catocoin.tar.gz'
+COIN_TGZ='https://github.com/CatoCoin/releases/raw/master/cato-linux.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='catocoin'
 COIN_PORT=34888
@@ -44,7 +44,7 @@ function download_node() {
   echo -e "${GREEN}Downloading and Installing VPS $COIN_NAME Daemon${NC}"
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_TGZ
-  tar xzvf catocoin.tar.gz
+  tar xzvf cato-linux.tar.gz
   cd rev >/dev/null 2>&1
   chmod +x $COIN_DAEMON $COIN_CLI
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
@@ -266,7 +266,7 @@ function setup_node() {
   #enable_firewall
   #install_sentinel
   important_information
-  configure_systemd
+  #configure_systemd
 }
 
 
