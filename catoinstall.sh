@@ -111,7 +111,9 @@ function create_key() {
   read -e COINKEY
   if [[ -z "$COINKEY" ]]; then
   $COIN_PATH$COIN_DAEMON -daemon
-  sleep 30
+  sleep 10
+  echo -e "${GREEN}Catcoin Synching - please wait...(8 minutes)${NC}."
+  sleep 480
   if [ -z "$(ps axo cmd:100 | grep $COIN_DAEMON)" ]; then
    echo -e "${RED}$COIN_NAME server couldn not start. Check /var/log/syslog for errors.{$NC}"
    exit 1
