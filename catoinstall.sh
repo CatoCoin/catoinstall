@@ -112,8 +112,8 @@ function create_key() {
   if [[ -z "$COINKEY" ]]; then
   $COIN_PATH$COIN_DAEMON -daemon
   sleep 10
-  echo -e "${GREEN}Catocoin Synching - please wait...(8 minutes)${NC}."
-  sleep 480
+  #echo -e "${GREEN}Catocoin Synching - please wait...(8 minutes)${NC}."
+  #sleep 480
   if [ -z "$(ps axo cmd:100 | grep $COIN_DAEMON)" ]; then
    echo -e "${RED}$COIN_NAME server couldn not start. Check /var/log/syslog for errors.{$NC}"
    exit 1
@@ -126,7 +126,11 @@ function create_key() {
     COINKEY=$($COIN_PATH$COIN_CLI masternode genkey)
   fi
   /usr/local/bin/catocoin-cli stop
-  sleep 10
+  sleep 5
+  rm -rd /root/.catocoin2/backups
+  rm -rd /root/.catocoin2/blocks
+  rm -rd /root/.catocoin2/chainstate
+  rm -rd /root/.catocoin2/database
 fi
 clear
 }
