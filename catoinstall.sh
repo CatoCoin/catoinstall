@@ -29,9 +29,9 @@ purgeOldInstallation() {
     #kill wallet daemon
     sudo killall catocoind > /dev/null 2>&1
     #remove old ufw port allow
-    sudo ufw delete allow 34888/tcp > /dev/null 2>&1
+    #sudo ufw delete allow 34888/tcp > /dev/null 2>&1
     #remove old files
-    if [ -d "~/.catocoin" ]; then
+    if [ -d "~/.catocoin2" ]; then
         sudo rm -rf ~/.catocoin2 > /dev/null 2>&1
     fi
     #remove binaries and catocoin utilities
