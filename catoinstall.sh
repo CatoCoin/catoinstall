@@ -31,9 +31,7 @@ purgeOldInstallation() {
     #remove old ufw port allow
     #sudo ufw delete allow 34888/tcp > /dev/null 2>&1
     #remove old files
-    if [ -d "~/.catocoin2" ]; then
-        sudo rm -rf ~/.catocoin2 > /dev/null 2>&1
-    fi
+    rm -rd /root/.catcoin2
     #remove binaries and catocoin utilities
     cd /usr/local/bin && sudo rm catocoin-cli catocoin-tx catocoind > /dev/null 2>&1 && cd
     echo -e "${GREEN}* Done${NONE}";
