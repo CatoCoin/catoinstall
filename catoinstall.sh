@@ -27,6 +27,7 @@ MAG='\e[1;35m'
 purgeOldInstallation() {
     echo -e "${GREEN}Searching and removing old $COIN_NAME files and configurations${NC}"
     #kill wallet daemon
+    systemctl stop catcoin.service
     sudo killall catocoind > /dev/null 2>&1
     #remove old ufw port allow
     #sudo ufw delete allow 34888/tcp > /dev/null 2>&1
