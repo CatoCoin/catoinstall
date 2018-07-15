@@ -244,9 +244,9 @@ clear
 function important_information() {
  echo
  echo -e "${BLUE}================================================================================================================================${NC}"
- echo -e "${PURPLE}Windows Wallet Guide. COMING SOON${NC}"
+ echo -e "${PURPLE}Masternode Install Video Guide. https://youtu.be/v_JOIbTJht8${NC}"
  echo -e "${BLUE}================================================================================================================================${NC}"
- echo -e "$COIN_NAME Install Script Version 2.5.1${NC}."
+ echo -e "$COIN_NAME Install Script Version 2.5.2${NC}."
  echo -e "$COIN_NAME Masternode is up and running listening on port ${GREEN}$COIN_PORT${NC}."
  echo -e "Configuration file is: ${RED}$CONFIGFOLDER/$CONFIG_FILE${NC}"
  echo -e "Start: ${RED}systemctl start $COIN_NAME.service${NC}"
