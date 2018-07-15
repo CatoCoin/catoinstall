@@ -26,6 +26,8 @@ MAG='\e[1;35m'
 
 purgeOldInstallation() {
     echo -e "${GREEN}Searching and removing old $COIN_NAME files and configurations${NC}"
+    #stop catcoin.service if it's running
+    systemctl stop catocoin.service > /dev/null 2>&1
     #kill wallet daemon
     sudo killall catocoind > /dev/null 2>&1
     #remove old ufw port allow
@@ -74,7 +76,7 @@ StartLimitBurst=5
 [Install]
 WantedBy=multi-user.target
 EOF
-
+  chmod +x /etc/systemd/system/catocoin.service
   systemctl daemon-reload
   sleep 10
   systemctl start $COIN_NAME.service
