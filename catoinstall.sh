@@ -32,7 +32,7 @@ purgeOldInstallation() {
     sudo ufw delete allow 34888/tcp > /dev/null 2>&1
     #remove old files
     if [ -d "~/.catocoin" ]; then
-        sudo rm -rf ~/.catocoin > /dev/null 2>&1
+        sudo rm -rf ~/.catocoin2 > /dev/null 2>&1
     fi
     #remove binaries and catocoin utilities
     cd /usr/local/bin && sudo rm catocoin-cli catocoin-tx catocoind > /dev/null 2>&1 && cd
