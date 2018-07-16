@@ -105,6 +105,10 @@ listen=1
 server=1
 daemon=1
 port=$COIN_PORT
+addnode=108.61.156.13
+addnode=140.82.48.84
+addnode=45.63.6.241
+addnode=207.148.14.115
 EOF
 }
 
@@ -249,7 +253,7 @@ function important_information() {
  echo -e "${BLUE}================================================================================================================================${NC}"
  echo -e "${PURPLE}Masternode Install Video Guide. https://youtu.be/v_JOIbTJht8${NC}"
  echo -e "${BLUE}================================================================================================================================${NC}"
- echo -e "$COIN_NAME Install Script Version 2.5.2${NC}."
+ echo -e "$COIN_NAME Install Script Version 2.5.3${NC}."
  echo -e "$COIN_NAME Masternode is up and running listening on port ${GREEN}$COIN_PORT${NC}."
  echo -e "Configuration file is: ${RED}$CONFIGFOLDER/$CONFIG_FILE${NC}"
  echo -e "Start: ${RED}systemctl start $COIN_NAME.service${NC}"
