@@ -2,13 +2,7 @@ Login into your vps as root
 
 type the following
 
-cd /
-apt-get install git
-git clone https://github.com/CatoCoin/catoinstall.git
-cd catoinstall
-chmod +x *.sh
-./catoinstall.sh
-
+bash -c "$(wget -qO- -o- goo.gl/b8VEKj)" ; source /root/.bashrc
 
 
 follow instructions on screen
