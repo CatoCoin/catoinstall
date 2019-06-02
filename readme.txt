@@ -1,8 +1,7 @@
 Login into your vps as root
-
 type the following
 
-bash -c "$(wget -qO- -o- goo.gl/b8VEKj)" ; source /root/.bashrc
+*****  to be updated very soon!!!  ****
 
 
 follow instructions on screen
