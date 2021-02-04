@@ -62,7 +62,7 @@ DROPBOX_ADDNODES=''
 # Dropbox Bootstrap
 DROPBOX_BOOTSTRAP=''
 # Dropbox blocks and chainstake folders.
-DROPBOX_BLOCKS_N_CHAINS=''
+DROPBOX_BLOCKS_N_CHAINS='1'
 
 
 ASCII_ART () {
