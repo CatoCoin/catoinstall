@@ -6313,7 +6313,7 @@ ${TEMP_FILE}
         echo "${MOVE_OR_COPY_TEXT} /var/multi-masternode-data/${PROJECT_DIR}/blocks_n_chains/blocks/ to ${DIR}/blocks/"
         sudo mkdir -p "${DIR}/blocks/"
         sudo touch -m "/var/multi-masternode-data/${PROJECT_DIR}/blocks_n_chains/blocks/"
-        sudo "${MOVE_OR_COPY}" "${MOVE_OR_COPY_OPT}" "/var/multi-masternode-data/${PROJECT_DIR}/blocks_n_chains/blocks/"* "${DIR}/blocks/" 2>/dev/null
+        sudo cp -rf "/var/multi-masternode-data/${PROJECT_DIR}/blocks_n_chains/blocks/"* "${DIR}/blocks/" 2>/dev/null
       fi
       if [[ -d "/var/multi-masternode-data/${PROJECT_DIR}/blocks_n_chains/chainstate/" ]]
       then
