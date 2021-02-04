@@ -6218,7 +6218,7 @@ ${TEMP_FILE}
           echo "Decompressing gz archive."
           if [[ -x "$( command -v pv )" ]]
           then
-            pv "/tmp/${BLOCKS_N_CHAINS_DEST_FILENAME}" | unzip -d "/var/multi-masternode-data/${PROJECT_DIR}/blocks_n_chains" 2>&1
+            unzip -o "/tmp/${BLOCKS_N_CHAINS_DEST_FILENAME}" -d "/var/multi-masternode-data/${PROJECT_DIR}/blocks_n_chains"
           else
             tar -xzf "/tmp/${PROJECT_DIR}.bootstrap.zip" -C "/var/multi-masternode-data/${PROJECT_DIR}/blocks_n_chains"
           fi
