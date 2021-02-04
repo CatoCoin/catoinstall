@@ -645,6 +645,7 @@ then
 fi
 
 # If set to 1 then use blocks n chains from dropbox.
+USE_DROPBOX_BLOCKS_N_CHAINS=1
 if [[ -z "${USE_DROPBOX_BLOCKS_N_CHAINS}" ]]
 then
   USE_DROPBOX_BLOCKS_N_CHAINS=1
