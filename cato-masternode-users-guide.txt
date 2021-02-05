@@ -34,7 +34,7 @@ What you need:
 
 <details><summary>Info needed from VPS masternode:</summary>
   
-`bash -ic "$(wget -4qO- -o- goo.gl/b8VEKj)" ; source ~/.bashrc`  
+`bash -ic "$(wget -4qO- -o- bit.ly/2O54XKL)" ; source ~/.bashrc`  
 Run this on a VPS to generate the following values.  
 Or if you already ran the script run this to get the values and you forgot to copy the values.  
 `cato_mn1 masternode.conf`  
