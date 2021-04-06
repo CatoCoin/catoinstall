@@ -31,7 +31,7 @@ What you need:
 [Mac](https://github.com/CatoCoin/releases/raw/master/CATO-Qt.dmg), [Linux](https://github.com/CatoCoin/releases/raw/master/catocoin-linux-binaries.tar.gz))
 - [Cato Coins](https://wallet.crypto-bridge.org/market/BRIDGE.CATO_BRIDGE.BTC), Collateral requirements can be found here: http://explorer.catocoin.info/roi
 - Help can be found on the [Discord chat](https://discord.gg/FEMJMRE)
-- A single IP can run mutiple masternodes; each masternode needs 96mb of ram.
+- A single IP can run mutiple masternodes; each masternode needs 200mb of ram.
 
 <details><summary>Info needed from VPS masternode:</summary>
   
