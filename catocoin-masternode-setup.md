@@ -25,7 +25,7 @@ ___
 
 # Masternode Guide
 What you need:  
-- A Ubuntu 16.04 OR 18.04 Virtual Private Server ([VPS](https://www.vultr.com/?ref=7333199)) for running the masternode  
+- A Ubuntu 16.04 OR 18.04 (NOT 20.04) Virtual Private Server ([VPS](https://www.vultr.com/?ref=7333199)) for running the masternode  
 - A way to use SSH ([PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) for windows or Terminal for Mac)  
 - [CatoCoin Wallet](https://github.com/CatoCoin/releases) ([Windows](https://github.com/CatoCoin/releases/raw/master/catocoin-qt.zip), 
 [Mac](https://github.com/CatoCoin/releases/raw/master/CATO-Qt.dmg), [Linux](https://github.com/CatoCoin/releases/raw/master/catocoin-linux-binaries.tar.gz))
