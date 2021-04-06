@@ -84,7 +84,8 @@ Go to Masternodes tab.
 Unlock wallet if it is locked.
 Select the new masternode and press the start alias button.
 
-You can also run `startmasternode alias false mymnalias` in the desktop console to start the masternode; replace the ending alias with the name of the masternode like this `startmasternode alias false cato_mn2_vultr.guest`. Get the list of aliases by running `masternode list-conf`.
+You can also run `startmasternode alias false mymnalias` in the desktop console to start the masternode; replace the ending alias with the name of the masternode like this
+`startmasternode alias false cato_mn2_vultr.guest`. Get the list of aliases by running `masternode list-conf`.
 
 Make sure the status says "Enabled"; on the vps you should see `Masternode cato_mn1 successfully started!`.
 If you just transferred to the mn1 address you'll need to wait for it to be confirmed 
@@ -290,7 +291,8 @@ windows key + r
 Mac:  
 go to Finder -> Menubar (top of screen) -> Go -> Utilities, open Terminal, type in  
 `open -a TextEdit ~/Library/Application\ Support/Catocoin2/masternode.conf`  
-If you already have a terminal window open and want another one go to the Menubar (top of screen) -> new window -> new windows with profile - basic. Then paste in the above command.
+If you already have a terminal window open and want another one go to the Menubar (top of screen) -> new window -> new windows with profile - basic. 
+Then paste in the above command.
 
 #### Edit catocoin2.conf
 Tools -> Open wallet configuration file.
