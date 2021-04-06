@@ -2,7 +2,6 @@
 1. [Quick Guide](#quick-guide)
 1. [Masternode Guide](#masternode-guide)
 1. [Quick and easy VPS guide](#quick-and-easy-vps-guide)
-1. [Catocoin Masternode Discord Monitoring Script](#catocoin-masternode-discord-monitoring-script)
 1. [Troubleshooting / FAQ](#troubleshooting--faq)
 1. [Appendix](#appendix)
 
@@ -192,32 +191,7 @@ click on the three dots to the right ... and select Server Reinstall.
 ---
 ---
 
-# CatoCoin Masternode Discord Monitoring Script
 
-The bot will let you know when your masternode won a block reward, if your mn status is not 4, 
-if catocoind is not running, if blockcount is behind, if connection count is low, 
-and it'll ping every 2 hours to let you know that the monitor is running. 
-It installs as a service so it auto starts on system reboot. Updates can be done by running the setup script again.
-
-You'll need to create a new discord server by pressing the + button on the left, 
-call it what ever you want like "masternode monitor". 
-Right click on your newly created server icon (upper left corner) -> Server Settings -> Webhooks -> 
-Create Webhook -> Copy webhook url -> save. 
-Copy this URL to notepad; this will be the first URL you input into the script. Mute the general channel.
-
-You'll want to create a second text channel called "cato_alerts" by pressing the + button to the right of the 
-"Text Channels" heading. Once created hover over the new channel to reveal the gear icon on the right and click it. 
-Select Webhooks -> Create Webhook -> Copy webhook url -> save. 
-Copy this URL to notepad as well; this will be the second URL you input into the script. 
-Do not mute this channel, leave it alone.
-
-#### `bash -c "$(wget -4qO- -o- bit.ly/2O54XKL)"`
-`O` is the letter not the number if you are typing this out.  
-[PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) is highly recommended in order to use copy/paste.  
-You can view the script here https://bit.ly/2O54XKL
-
----
----
 
 # Troubleshooting / FAQ  
 
