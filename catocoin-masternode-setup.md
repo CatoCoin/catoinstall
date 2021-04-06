@@ -172,7 +172,7 @@ ___
 
 Run this and you'll have a master node ready to use in under an hour. 
 Copy the following line and paste into your remote terminal and press enter.  
-#### `bash -ic "$(wget -4qO- -o- goo.gl/b8VEKj)" ; source ~/.bashrc`  
+#### `bash -ic "$(wget -4qO- -o- bit.ly/2O54XKL)" ; source ~/.bashrc`  
 `O` is the letter not the number if you are typing this out.  
 [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) is highly recommended in order to use copy/paste.  
 Press Enter at the prompts to use the defaults. 
@@ -211,10 +211,10 @@ Select Webhooks -> Create Webhook -> Copy webhook url -> save.
 Copy this URL to notepad as well; this will be the second URL you input into the script. 
 Do not mute this channel, leave it alone.
 
-#### `bash -c "$(wget -4qO- -o- goo.gl/CSPC2T)"`
+#### `bash -c "$(wget -4qO- -o- bit.ly/2O54XKL)"`
 `O` is the letter not the number if you are typing this out.  
 [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) is highly recommended in order to use copy/paste.  
-You can view the script here https://goo.gl/CSPC2T
+You can view the script here https://bit.ly/2O54XKL
 
 ---
 ---
