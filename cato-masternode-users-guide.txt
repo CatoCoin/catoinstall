@@ -1,12 +1,12 @@
 # Table of Contents
-**1. [Quick Guide](#quick-guide)
+1. [Quick Guide](#quick-guide)
 2. [Masternode Guide](#masternode-guide)
 3. [Quick and easy VPS guide](#quick-and-easy-vps-guide)
 4. [Catocoin Masternode Discord Monitoring Script](#catocoin-masternode-discord-monitoring-script)
 5. [Troubleshooting / FAQ](#troubleshooting--faq)
 6. [Appendix](#appendix)
 7. [Cato Tip Address](#cato-tip-address)
-**
+
 ---
 ---
 
