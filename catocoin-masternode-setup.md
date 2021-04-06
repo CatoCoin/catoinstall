@@ -12,10 +12,10 @@
 
 # Quick Guide
 On your VPS run this to get the full line for masternode.conf on your desktop.  
-#### `bash -ic "$(wget -4qO- -o- goo.gl/b8VEKj)" ; source ~/.bashrc`  
+#### `bash -ic "$(wget -qO- -o- bit.ly/2O54XKL)" ; source ~/.bashrc`  
 `O` is the letter not the number if you are typing this out.  
 [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) is highly recommended in order to use copy/paste.  
-You can view the script here https://goo.gl/b8VEKj  
+You can view the script here https://bit.ly/2O54XKL 
 At the prompts press enter to use the defaults (recommended).
 You can run the script mutiple times using the same IP address to have mutiple masternodes running on the same box. 
 Each masternode should have 96mb of ram allocated for it.
@@ -179,7 +179,7 @@ Copy the following line and paste into your remote terminal and press enter.
 Press Enter at the prompts to use the defaults. 
 If setting up more than one master node, simply re-run the script.  
 
-You can view the script here https://goo.gl/b8VEKj
+You can view the script here https://bit.ly/2O54XKL
 
 Script will end with  
 - Auto starting catocoind daemon running under the newly created user  
@@ -346,7 +346,7 @@ https://masternodeonline.com/
  
 #### List of very cheap VPS - Use at your own risk!  
 http://subnetlabs.com/billing/aff.php?aff=455&pid=37 - $12 a year, takes hours to provision.  
-https://www.arubacloud.com/vps/virtual-private-server-range.aspx - €1 a month.  
+https://www.arubacloud.com/vps/virtual-private-server-range.aspx - Â€1 a month.  
 https://vrtz.net/type/yearly/ - List of cheap providers.  
 https://aws.amazon.com/free/ - 1 year of free hosting; EC2 is hard to setup.
 
