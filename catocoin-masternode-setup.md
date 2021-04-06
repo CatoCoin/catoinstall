@@ -70,8 +70,7 @@ The long string is the *txhash* and the short string (usually a 0 or 1) is the *
 Copy these values to the top of notepad one per line. 
 At this stage notepad should look like this; remember outputidx can be a 0 or 1.
 
-    x64xcharxlongxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    1
+    x64xcharxlongxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 1
 
 Once you have the VPS running (see [Quick and easy guide below](#quick-and-easy-vps-guide)) 
 the script will output the full string to paste into the masternode.conf file.
